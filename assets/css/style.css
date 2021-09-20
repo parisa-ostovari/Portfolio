@@ -112,3 +112,20 @@ body {
   .contacts a:hover {
     color: rgb(16, 193, 242);
   }
+
+  /* Footer */
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    padding: 3%;
+    background-color: #031a47e5;
+  }
+
+  footer p {
+      color: white;
+      text-align: center;
+      margin-left: 25rem;
+  }
