@@ -102,48 +102,51 @@ header nav ul li a:hover {
   color: black;
 }
 
-
-
-
 /* Work Grid Layout */
 .grid-card{
-  padding: 10px;
+  padding-right: 30px;
+  flex: 1 70%;
   display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
   flex-wrap: wrap;
-  
+  padding-left: 22px;
+
 }
 
-/* Project 1 */
+/* Project 1 Card */
 .card-feature {
   border: 2px solid rgba(102, 201, 243, 0.846);
-  padding: 10px;
-  margin: 0%;
-  flex: 1 1 100%;
-
+  flex: 2 100%;
+  height: 400px;
+  width: 40;
+  position: relative;
+  margin: 7px;
+  opacity: 0.70;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 40px;
-  height: 500px;
 }
 
 
-/* Project 2-5 */
+/* Project 2-5 Card */
 .card {
   border: 2px solid rgba(102, 201, 243, 0.846);
-  padding: 5px;
-  margin: 0%;
-  flex: 1 1 50%;
-  
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  flex: 1 40%;
   width: 40px;
-  height: 500px;
-
+  height: 300px;
+  position: relative;
+  margin: 7px;
+  padding: 0px;
+  opacity: 0.70;
 }
 
-
-
-
+/* flexbox hover */
+.card-feature:hover,
+.card:hover {
+  border: 4px solid purple;
+  transition: 0.4s;
+  opacity: 1;
+}
 
 /* Contact Section */
 
