@@ -31,7 +31,7 @@ header h1 {
   margin: 0;
 }
 
-/* navbar */
+/* Navbar */
 header nav {
   padding-top: 10px;
   margin-right: 20px;
@@ -111,15 +111,12 @@ header nav ul li a:hover {
   align-content: flex-start;
   flex-wrap: wrap;
   padding-left: 22px;
-
 }
 
 /* Project 1 Card */
 .card-feature {
   border: 2px solid rgba(102, 201, 243, 0.846);
   flex: 2 100%;
-  height: 400px;
-  width: 40;
   position: relative;
   margin: 7px;
   opacity: 0.70;
@@ -127,35 +124,52 @@ header nav ul li a:hover {
   transition: 0.3s;
 }
 
-
 /* Project 2-5 Card */
 .card {
   border: 2px solid rgba(102, 201, 243, 0.846);
   flex: 1 40%;
-  width: 40px;
-  height: 300px;
   position: relative;
   margin: 7px;
   padding: 0px;
   opacity: 0.70;
 }
 
-/* flexbox hover */
+/* Project Card Hover */
 .card-feature:hover,
 .card:hover {
-  border: 4px solid purple;
+  border: 2px solid purple;
   transition: 0.4s;
   opacity: 1;
 }
 
-/* Contact Section */
+.inside {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  color:#031a47e5;
+  background: rgba(102, 201, 243, 0.846);
+  width: 100px;
+  height: 80px;
+} 
 
+.inside p{
+font-size: 15px;
+display: flex;
+justify-content: center;
+}
+
+.inside h3{
+font-size: 21px;
+display: flex;
+justify-content: center;
+}
+
+/* Contact Section */
 .contact links {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .contact links a {
