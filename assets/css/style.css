@@ -26,7 +26,7 @@ header {
 header h1 {
     display: inline-block;
     font-size: 45px;
-    background-color: rgb(88, 146, 185);
+    background-color: rgba(102, 201, 243, 0.846);
     padding: 5px 1% 5px 5%;
     margin: 0;
 }
@@ -58,13 +58,13 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: rgb(88, 146, 185);
+    color: rgba(102, 201, 243, 0.846);
 }
 
 /* main content */
 
 .content {
-    width: 75%;
+    width: 80%;
     display: inline-block;
     margin-left: 20px;
     color: #031a47e5;
@@ -99,13 +99,14 @@ header nav ul li a:hover {
   }
 
   .main-content p {
+    margin-top: 28px;
     margin-bottom: 20px;
     color: black;
   }
 
   /* Contact Section */
 
-  .contacts {
+  .contact links {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -113,15 +114,15 @@ header nav ul li a:hover {
     height: 100%;
   }
 
-  .contacts a {
+  .contact links a {
     color: black;
-    padding: 5px;
     text-decoration: none;
     font-style: normal;
+    font-size: 20px;
   }
 
-  .contacts a:hover {
-    color: rgb(16, 193, 242);
+  .contact links a:hover {
+    color: rgba(102, 201, 243, 0.846);
   }
 
   /* Footer */
