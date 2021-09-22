@@ -1,143 +1,141 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #e4e7f7a6;
-    color: black;
-    line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #e4e7f7a6;
+  color: black;
+  line-height: 1.5;
 }
 
 /* Header */
 header {
-    padding: 5px 0% 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #031a47e5;
-    color: #ffffff;
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #031a47e5;
+  color: #ffffff;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 45px;
-    background-color: rgba(102, 201, 243, 0.846);
-    padding: 5px 1% 5px 5%;
-    margin: 0;
+  display: inline-block;
+  font-size: 45px;
+  background-color: rgba(102, 201, 243, 0.846);
+  padding: 5px 10px 5px 10px;
+  margin: 0;
 }
 
 /* navbar */
 header nav {
-    padding-top: 10px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 23px;
+  padding-top: 10px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 23px;
 }
 
 header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
 header nav ul li a {
-    display: block;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
+  display: block;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
 }
 
 header nav ul li a:hover {
-    color: rgba(102, 201, 243, 0.846);
+  color: rgba(102, 201, 243, 0.846);
 }
 
 /* main content */
 
 .content {
-    width: 80%;
-    display: inline-block;
-    margin-left: 20px;
-    color: #031a47e5;
+  width: 80%;
+  display: inline-block;
+  margin-left: 20px;
+  color: #031a47e5;
 }
 
 .main-content {
-    margin: 25px 0;
-    padding: 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
-  }
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
 
 .main-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .main-content>h2 {
-    flex: 0 0 20%;
-    text-align: right;
-    padding-right: 15px;
-    border-right: 4px solid black;
-    font-size: vw;
-    line-height: 1.1;
-  }
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid black;
+  line-height: 1.1;
+}
 
-  .main-content>div {
-    flex: 0 0 75%;
-  }
+.main-content>div {
+  flex: 0 0 75%;
+}
 
-  .main-content p {
-    margin-top: 28px;
-    margin-bottom: 20px;
-    color: black;
-  }
+.main-content p {
+  margin: 20px 20px;
+  color: black;
+}
 
-  /* Contact Section */
+/* Contact Section */
 
-  .contact links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-  }
+.contact links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 
-  .contact links a {
-    color: black;
-    text-decoration: none;
-    font-style: normal;
-    font-size: 20px;
-  }
+}
 
-  .contact links a:hover {
-    color: rgba(102, 201, 243, 0.846);
-  }
+.contact links a {
+  color: black;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 20px;
+}
 
-  /* Footer */
+.contact links a:hover {
+  color: rgba(102, 201, 243, 0.846);
+}
 
-  footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items:center;
-    padding: 10px;
-    background-color: #031a47e5;
-  }
+/* Footer */
 
-  footer p {
-      color: white;
-      font-size: 12px;
-      margin: auto;
-  }
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px;
+  background-color: #031a47e5;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+    margin: auto;
+}
