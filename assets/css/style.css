@@ -132,7 +132,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:center;
-    padding: 3%;
+    padding: 10px;
     background-color: #031a47e5;
   }
 
@@ -140,4 +140,5 @@ header nav ul li a:hover {
       color: white;
       text-align: center;
       margin-left: 25rem;
+      font-size: 12px;
   }
