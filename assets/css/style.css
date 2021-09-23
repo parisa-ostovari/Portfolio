@@ -25,7 +25,7 @@ header {
 
 header h1 {
   display: inline-block;
-  font-size: 35px;
+  font-size: 33px;
   background-color: rgba(102, 201, 243, 0.846);
   padding: 5px 10px 5px 10px;
   margin: 0;
@@ -61,16 +61,15 @@ header nav ul li a:hover {
   color: rgba(102, 201, 243, 0.846);
 }
 
-/* Hero Banner Styling */
-
-.hero a {
-  height: 300px;
-  position: relative;
-  background-image:
-  background-position: center;
+/* Hero Banner */
+.hero {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/Banner.png");
   background-size: cover;
-  background-repeat: no-repeat;
-  
+  background-position: center; 
+  opacity: 0.9;
 }
 /* main content */
 
@@ -92,7 +91,7 @@ header nav ul li a:hover {
 }
 
 .main-content h2 {
-flex: 0 0 20%;
+  flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
   border-right: 4px solid black;
@@ -107,7 +106,7 @@ flex: 0 0 20%;
 
 .main-content p {
   /* margin: 20px 20px; */
-  margin-bottom: 25px;
+  margin-bottom: 21px;
   color: black;
 }
 
@@ -158,7 +157,7 @@ flex: 0 0 20%;
   color:#031a47e5;
   background: rgba(102, 201, 243, 0.846);
   width: 100px;
-  height: 80px;
+  height: 60px;
 } 
 
 .inside p{
