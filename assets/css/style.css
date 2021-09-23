@@ -208,47 +208,22 @@ footer p {
     margin: auto;
 }
 
+/* Media Queries */
 @media screen and (max-width: 798px){
   header h1 {
-    display: inline-block;
-    font-size: 18px;
-    background-color: rgba(102, 201, 243, 0.846);
+    font-size: 20px;
     padding: 5px 10px 5px 10px;
-    margin: 0;
   }
 
   header nav {
-    padding-top: 10px;
-    margin-right: 10px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
   }
 
-  header nav ul {
-    list-style-type: none;
+  .hero {
+    height: 25px;
   }
-  
-  header nav ul li {
-    display: inline-block;
-    margin-left: 15px;
-  }
-  
-  header nav ul li a {
-    display: block;
-    color: #ffffff;
-    padding: 7px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  header nav ul li a:hover {
-    color: rgba(102, 201, 243, 0.846);
-  }
-  
+
   .main-content {
-    margin: 25px 0;
-    padding: 10px 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -260,12 +235,102 @@ footer p {
     flex: 0 0 20%;
     text-align: center;
     border-right: none;
-    padding-bottom: 15px;
-    border-bottom: 4px solid black !important;
-    line-height: 1.1;
+    border-bottom: 3px solid black !important;
+    padding-bottom: 5px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
   }
+
+  .main-content p {
+    font-size: 14px;
+    padding-bottom: 0;
+  }
   
+  .contact links a {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 15px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+  footer p {
+      color: white;
+      font-size: 12px;
+      display: flex;
+      width: 50%;
+  }
+
 }
+
+@media screen and (max-width: 598px){
+  header h1 {
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  header nav {
+    font-size: 14px;
+  }
+
+  .hero {
+    height: 17px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main-content h2 {
+    flex: 0 0 20%;
+    text-align: center;
+    border-right: none;
+    border-bottom: 3px solid black !important;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .main-content p {
+    font-size: 12px;
+    padding-bottom: 0;
+  }
+
+
+.inside {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  color:#031a47e5;
+  background: rgba(102, 201, 243, 0.846);
+  width: 100px;
+  height: 50px;
+} 
+
+  .inside p{
+  font-size: 12px;
+  }
+
+  .inside h3{
+  font-size: 17px;
+  }
+
+  .contact links a {
+    font-size: 13px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+  footer p {
+      font-size: 9px;
+      display: flex;
+      width: 50%;
