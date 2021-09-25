@@ -63,7 +63,7 @@ header nav ul li a:hover {
 
 /* Hero Banner */
 .hero {
-  height: 35px;
+  height: 32px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../images/Banner.png");
@@ -71,8 +71,8 @@ header nav ul li a:hover {
   background-position: center; 
   opacity: 0.9;
 }
-/* main content */
 
+/* Main Content */
 .content {
   max-width: 88%;
   display: inline-block;
@@ -105,12 +105,11 @@ header nav ul li a:hover {
 }
 
 .main-content p {
-  /* margin: 20px 20px; */
   margin-bottom: 21px;
   color: black;
 }
 
-/* Work Grid Layout */
+/* Work - Grid Layout of Projects */
 .grid-card{
   padding-right: 30px;
   flex: 1 70%;
@@ -210,6 +209,7 @@ footer p {
 
 
 /* Media Queries */
+
 @media screen and (max-width: 798px){
   header h1 {
     font-size: 20px;
@@ -222,6 +222,7 @@ footer p {
 
   .hero {
     height: 25px;
+    margin-bottom: 5px;
   }
 
   .main-content {
@@ -264,8 +265,8 @@ footer p {
       display: flex;
       width: 50%;
   }
-
 }
+
 
 @media screen and (max-width: 598px){
   header h1 {
@@ -279,6 +280,7 @@ footer p {
 
   .hero {
     height: 17px;
+    margin-bottom: 3px;
   }
 
   .main-content {
@@ -304,7 +306,6 @@ footer p {
     font-size: 12px;
     padding-bottom: 0;
   }
-
 
   .inside {
     position: absolute;
@@ -338,15 +339,19 @@ footer p {
   }
 }
 
+
 @media screen and (max-width: 417px){
 
   header h1 {
-    font-size: 10px;
-    
+    font-size: 13px;
   }
 
   header nav ul li {
-    font-size: 10px;
+    font-size: 11px;
+  }
+
+  .main-content h2 {
+    font-size: 13px;
   }
 
   .main-content p {
@@ -354,4 +359,14 @@ footer p {
     padding-bottom: 0;
   }
 
-      }
+  .contact links a {
+    font-size: 11px;
+    padding-right: 25px;
+  }
+
+  footer p {
+    font-size: 7px;
+    display: flex;
+    width: 50%;
+  }
+}
