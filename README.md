@@ -1,14 +1,14 @@
-# Parisa Ostovari's Portfolio
+# Parisa Ostovari's Portfolio Update #2
 
 ## Description
 
-This is project is my introductory personal portfolio as a Full-Stack Web Developer. With the usage of HTML and CSS, I created this website in order to demonstrate my skills and experience to future employers and clients.
+This is update # 2 for my introductory personal portfolio as a Full-Stack Web Developer. With the usage of HTML and CSS, I created this website in order to demonstrate my skills and experience to future employers and clients.
 
 Link to Website: https://parisa-ostovari.github.io/portfolio/
 
 Preview of website:
 
-![Website-Preview](/assets/images/WebsitePreview.png)
+![Website-Preview](./assets/images/Portfolio%20Update%202%20Screenshot.png)
 
 
 
