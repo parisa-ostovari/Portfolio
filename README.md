@@ -8,7 +8,7 @@ Link to Website: https://parisa-ostovari.github.io/Portfolio/
 
 Preview of website:
 
-![Website-Preview](./assets/images/Portfolio%20Update%202%20Screenshot.png)
+![Website-Preview](./assets/images/Portfolio%20Update%203%20Screenshot.png)
 
 
 
